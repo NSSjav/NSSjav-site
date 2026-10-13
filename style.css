@@ -1,0 +1,89 @@
+/* Geist Font Import */
+@font-face {
+    font-family: "Geist";
+    src: url(fonts/Geist-VariableFont_wght.ttf);
+}
+
+/* Libre Baskerville Font Import */
+@font-face {
+    font-family: "Libre Baskerville";
+    src: url(fonts/LibreBaskerville-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151515;
+
+    color: #fafafa;
+}
+
+h1 {
+    font-family: "Libre Baskerville", sans-serif;
+    font-size: 28px;
+}
+
+h2 {
+    font-family: "Libre Baskerville", sans-serif;
+    font-size: 22px
+}
+
+p {
+    font-family: "Geist", serif;
+    font-size: 18px;
+    color: #fafafa;
+}
+
+.site-container {
+    max-width: 480px;
+    overflow: hidden;
+    margin: auto;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links ul {
+    padding: 10px 40px;
+
+    list-style-type: square;
+}
+
+.links ul li p, a {
+    font-family: "Libre Baskerville", sans-serif;
+    color: #5a4e8e;
+}
+
+.links ul li::marker {
+    font-size: 24px;
+    color: #5a4e8e;
+}
+
+/* .links a, p {
+    font-family: "Libre Baskerville", sans-serif;
+    color: #5a4e8e;
+    text-decoration: none;
+} */
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+footer small {
+    font-family: "Libre Baskerville", sans-serif;
+}
