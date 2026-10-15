@@ -1,0 +1,36 @@
+HTML:
+<section class="links container">
+    <h2>Important Links:</h2>
+    <ul>
+        <li>
+            <p><a href="https://github.com/NSSjav" target="_blank">Github</a> 
+                — Projects Github</p>
+            
+        </li>
+        <li>
+            <p><a href="blog.html">blog.html</a>
+                 — Personal Blog</p>
+        <li>
+            <p><a href="#">YouTube possibly soon</a>
+                 — Developer Log</p>
+        </li>
+    </ul>
+</section>
+
+CSS:
+.links ul {
+    padding: 10px 40px;
+    padding-bottom: 0;
+
+    list-style-type: square;
+}
+
+.links ul li p {
+    font-family: "Libre Baskerville", sans-serif;
+    color: #5a4e8e;
+}
+
+.links ul li::marker {
+    font-size: 24px;
+    color: #5a4e8e;
+}
